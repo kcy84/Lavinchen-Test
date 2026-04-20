@@ -80,8 +80,8 @@ if b2.button("⊙ 2.5 mm"):
     st.session_state.aperture = 2.5
 if b3.button("⊙ 5 mm"):
     st.session_state.aperture = 5.0
-if b4.button("⊙ 7 mm"):
-    st.session_state.aperture = 7.0
+if b4.button("⊙ 7.5 mm"):
+    st.session_state.aperture = 7.5
 st.divider()
 
 # ── Schieberegler (gestapelt, mobile-freundlich) ──────────────────
