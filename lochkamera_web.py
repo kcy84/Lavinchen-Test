@@ -97,7 +97,7 @@ aperture = st.slider(
 st.session_state.aperture = aperture
 
 cam_length = st.slider(
-    "↔  Kameralänge in mm",
+    "↔  Länge der Chipsdose (Kameralänge) in mm",
     min_value=80, max_value=300, value=180, step=5,
     help="Länger = größeres Bild auf dem Schirm"
 )
