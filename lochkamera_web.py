@@ -164,7 +164,7 @@ inner_margin = 9
 # Hintergrund
 draw.rectangle([hole_x - 22, cy - half_cam - 2,
                 screen_x + 14, cy + half_cam + 2],
-               fill="#E8E8E8", outline="")
+               fill="#E8E8E8", outline="None")
 # Äußere Dose (rot, abgerundet)
 draw.rounded_rectangle([hole_x - 20, cy - half_cam,
                          screen_x + 12, cy + half_cam],
