@@ -71,7 +71,7 @@ st.divider()
 # ── Blenden-Presets (oben, gut auf Handy erreichbar) ─────────────
 st.markdown("**📎 Lochblende aufclipsen:**")
 if "aperture" not in st.session_state:
-    st.session_state.aperture = 3.0
+    st.session_state.aperture = 2.5
 
 b1, b2, b3, b4 = st.columns(4)
 if b1.button("⊙ 1 mm"):
