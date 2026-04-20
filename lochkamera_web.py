@@ -64,8 +64,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Titel ────────────────────────────────────────────────────────
-st.markdown("# 🔬 Lochkamera – Camera Obscura")
-st.caption("Interaktive Simulation für die 7. Klasse · Physik")
+st.markdown("# 🔬 Lochkamera")
+st.caption("Interaktive Simulation für die LG 7. Klasse · Physik")
 st.divider()
 
 # ── Blenden-Presets (oben, gut auf Handy erreichbar) ─────────────
@@ -76,12 +76,12 @@ if "aperture" not in st.session_state:
 b1, b2, b3, b4 = st.columns(4)
 if b1.button("⊙ 1 mm"):
     st.session_state.aperture = 1.0
-if b2.button("⊙ 3 mm"):
-    st.session_state.aperture = 3.0
+if b2.button("⊙ 2.5 mm"):
+    st.session_state.aperture = 2.5
 if b3.button("⊙ 5 mm"):
     st.session_state.aperture = 5.0
-if b4.button("⊙ 8 mm"):
-    st.session_state.aperture = 8.0
+if b4.button("⊙ 7 mm"):
+    st.session_state.aperture = 7.0
 st.divider()
 
 # ── Schieberegler (gestapelt, mobile-freundlich) ──────────────────
